@@ -1,5 +1,6 @@
 # Groundwaterdata
-A step by step of a data project looking at the decrease in groundwater level in Southern California counties
+## A step by step of a data project looking at the decrease in groundwater level in Southern California counties
+## Based on interviews, we already know that we're looking at 10 Southern Counties and their groundwater level, and why that will create constraints for the push to build more housing units in that region as prescribed by the Regional Housing Authority: https://scag.ca.gov/sites/main/files/file-attachments/6th-cycle-rhna-final-allocation-plan.pdf?1616462966
 
 ## RStudio
 1. Run code: 
@@ -28,3 +29,24 @@ groundwater2000 <- subset(groundwater_all,year=="2000")
 View(groundwater2000)
 write.csv(groundwater2000,"groundwater2000.csv")
 9. Import above files into Google Sheets for further analysis
+
+## Housing Data
+1. Visit the US Census website: https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-totals-housing-units.html
+2. Click "California" and import the housing units 2010~2020 dataset into a Google spreadsheet
+3. Name it "Housing Unit 2000~2020"
+4. Go to: https://www.census.gov/data/tables/time-series/demo/popest/intercensal-2000-2010-housing-units.html
+5. Click "California" and add housing data of 2000~2009 into the "Housing Unit 2000~2020" spreadsheet
+6. Freeze header
+7. Column V (2020) minus Column B (2000) to find out how much housing units increased between 2 decades
+8. Place results in Column W 
+9. Column W divided by Column B (2000) to find out the percentage of increase 
+10. Place results in Column X
+11. Copy both Column W and X and out them in a new spreadsheet, arrange by county
+12. Name it "Housing Units Change"
+13. Toggle with the "A to Z" arrange function to rank counties by their percentage of increase
+14. Highlight the ten Southern counties we're looking at in a different colour for clearer visuals
+15. The ten counties are: Imperial, Los Angeles, Kern, Orange, Riverside, San Bernardino, San Diego, San Luis Obispo, Santa Barbara, Ventura
+
+## Analysing groundwater data
+1. Use the Query function to extract the ten counties in question from the "groundwater2000" and "groundwater2021" datasets:
+2. Example: =QUERY(groundwater2000!A:M,"where M contains 'Los Angeles'")
