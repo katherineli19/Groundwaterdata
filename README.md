@@ -35,7 +35,7 @@ write.csv(groundwater2000,"groundwater2000.csv")
 2. Click "California" and import the housing units 2010~2020 dataset into a Google spreadsheet
 3. Name it "Housing Unit 2000~2020"
 4. Go to: https://www.census.gov/data/tables/time-series/demo/popest/intercensal-2000-2010-housing-units.html
-5. Click "California" and add housing data of 2000~2009 into the "Housing Unit 2000~2020" spreadsheet
+5. Click "California" and add housing data of 2000 to 2009 into the "Housing Unit 2000~2020" spreadsheet
 6. Freeze header
 7. Column V (2020) minus Column B (2000) to find out how much housing units increased between 2 decades
 8. Place results in Column W 
@@ -47,6 +47,31 @@ write.csv(groundwater2000,"groundwater2000.csv")
 14. Highlight the ten Southern counties we're looking at in a different colour for clearer visuals
 15. The ten counties are: Imperial, Los Angeles, Kern, Orange, Riverside, San Bernardino, San Diego, San Luis Obispo, Santa Barbara, Ventura
 
-## Analysing groundwater data
+## Comparing groundwater data: 2000 Vs. 2021
 1. Use the Query function to extract the ten counties in question from the "groundwater2000" and "groundwater2021" datasets:
 2. Example: =QUERY(groundwater2000!A:M,"where M contains 'Los Angeles'")
+3. Create a separate spreadsheet for each county, title it "(County name) Average" for clarity
+4. Using Los Angeles as an example:
+5. Since the number of sites being tested have varied greatly throughout the years and location really matters, only the same well can be compared to its own average measurements across the years
+6. Use Vlookup to find out which LA wells from 2000 are still pumping in 2021: =Vlookup(A2, 'Los Angeles 2000'!A:C, 3, False)
+7. Column A contains the sitecode which is unique to each well, Column C contains the measurement in feet
+8. Remove rows in Los Angeles 2021 that don't have a match, signifying that the well wasn't there in 2000
+9. Find the annual average for each well that was there for both 2000 and 2020
+10. For example: =average(C3:C10)
+11. The above step needs to be repeated for both Los Angeles 2021 and Los Angeles 2000
+12. Open up the Los Angeles Average spreadsheet
+13. Paste in the average results obtained from Los Angeles 2000
+14. Use Vlookup again to match Los Angeles 2021 average results to the Los Angeles 2000 average results
+15. For example: =Vlookup(A2, 'Los Angeles 2021'!A:D, 4, False)
+16. Place sitecodes in Column A, county name in B, year 2000 in C, year 2021 in D
+17. Column C minus Column D would show us whether the groundwater level at that particular site has increased or decreased, put that in Column E
+18. A positive number in Column E would signify a decrease in groundwater level, whereas a negative number would signify an increase
+19. Use "A to Z" arrangement tool on Column E to rank the sites 
+20. Fill the positive number rows with red, the negative number columns with green, for clarity
+21. Create Column F, and do E/C to find percent change 
+22. Format Column F so that it appears as a percentage with two decimals
+23. Count how many sites in LA decreased and figure out a percentage
+24. For example, among the total of 34 LA well sites that are functional between 2000 and 2021, 26 of them have shown decline in groundwater level, therefore around 76.47% of these wells have shown decline
+25. Use the Sum function to check the total for both Column C and D, to check that the 8 wells that have shown increase did not outweigh the decline
+26. Repeat Steps 4 to 25 for the remaining 9 Southern counties
+
