@@ -74,6 +74,6 @@ write.csv(groundwater2000,"groundwater2000.csv")
 24. For example, among the total of 34 LA well sites that are functional between 2000 and 2021, 26 of them have shown decline in groundwater level, therefore around 76.47% of these wells have shown decline
 25. Use the Sum function to check the total for both Column C and D, to check that the 8 wells that have shown increase did not outweigh the decline
 26. Repeat Steps 4 to 25 for the remaining 9 Southern counties
-27. !['Countyresults']
+27. !['Countyresults'](/Countyresults.png)
 
 ## Creating info graphics for Groundwater data
