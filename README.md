@@ -78,6 +78,7 @@ write.csv(groundwater2000,"groundwater2000.csv")
 25. Use the Sum function to check the total for both Column C and D, to check that the 8 wells that have shown increase did not outweigh the decline
 26. Repeat Steps 4 to 25 for the remaining 9 Southern counties
 27. !['Countyresults'](/Countyresults.png)
+28. !['BARGRAPH'](/BARGRAPH.png)
 
 ## Precipitation 
 1. Go to https://www.ncdc.noaa.gov/cag/county/mapping/4/pcp/202112/12/value
