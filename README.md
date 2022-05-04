@@ -1,3 +1,36 @@
+# California's plan to boost housing faces climate constraints
+## By Katherine Li
+
+The push to build more affordable housing in California now faces a new challenge: ongoing drought and a declining groundwater supply, especially in Southern counties. 
+
+Towards the end of 2021, the Regional Housing Authority has prescribed a hefty quota for 1,341,827 new housing units to be built across six Southern California counties, respectively Imperial, Los Angeles, Orange, Riverside, San Bernardino, and Ventura. However, due to an ongoing statewide drought and a significant decline in groundwater level over the past two decades, climate scientists express concerns over the idea to build this many housing units in some of the driest regions of California. 
+
+“The State is telling cities that they have to build more housing, but in certain regions there should not be that many houses, because there aren't enough existing resources there to sustain them,” said Deirdre Des Jardins, ​​Director of California Water Research, “These areas are going to be really hot and experience more future droughts, and the State isn’t looking at these constraints when making such plans.”
+
+!['Rainmap'](/Rainmap.png)
+!['Housingmap'](/Housingmap.png)
+
+In California, groundwater provides for between 30 to 60 percent of the State’s water needs. Not only is it crucial for California farmers that produce half of the nation’s domestic food supply, groundwater also acts as a buffer against drought induced by climate change. But unlike lakes and reservoirs that can fill up after a year of above-average rain and snow, it could take years, if not decades, for underground water to be replenished. Based on groundwater statistics compiled by the California Natural Resources Agency, there are a total of 766 wells that existed in 2000 which still exist in 2021 across the ten counties of Southern California. Looking at the average groundwater level of each well, 75.85% of those wells have decreased in average water level in 2021 when compared to their average water level in 2000. The drought and the construction of more housing units in desert counties are only going to make matters worse. 
+
+!['BARGRAPH'](/BARGRAPH.png)
+
+Part of the State’s solution is to build more water reservoirs in the North where there are still available water resources. The Sites Reservoir is a proposed 1.8 million foot acre private reservoir set to be built between 2023 and 2030 at the lower Sacramento River. This project has been officially portrayed as a necessary solution to the current drought California is experiencing, which would add 500,000 acre-feet of water to the state’s system annually, and has been on the drawing boards since last century. It is one of the largest and most expensive projects ever to be accepted by the California Water Commission, and in 2018, it received $816 million in funding, while the estimated total funding that this project will eventually need stands at $5.2 billion.
+
+“I think The Sites isn’t an answer because it only increases expectations of a reliable water supply, and increases reliance on exports from the Delta to supply users south of the Delta,” said Jim Brobeck, water analyst from the Aqua Alliance. “Water districts and the water purveyors down South know that taking water out of the Delta and the Sacramento Valley is an unreliable source of water.”
+
+Brobeck explains that while water reservoirs may solve short term water needs, it is essentially further decimating the environment to fix a phenomenon caused by climate change. Not only would The Sites need 8 dams and more pipelines, it could also deplete the Sacramento River by diverting water during low flow years, as well as allow harmful minerals and algae to build up in the reservoir water due to increasing temperatures, ultimately making that water unusable. 
+
+“The salts, the heavy metals, the toxic algae blooms and water temperature problems, those are all water quality issues that have separate remediation processes. There's no way to treat the water in a way that is economically or environmentally feasible,” said Brobeck.
+
+Indeed, based on analysis done by the Natural Resources Defense Council, water from Sites is already likely to cost more than $700 per acre foot on average, an estimate which does not include the additional costs to move water through the Delta or down the California Aqueduct and other canals, and the potential cost for water treatment. 
+
+Citing data from the Metropolitan Water District Service area which has doubled in population since the 1970s, their total amount of water use has remained steady despite the increase in population, which to Brobeck signifies that municipalities do have the skills to increase water efficiency. He believes that more housing could be built under the condition that counties change their flood control system to recharge their aquifers, encourage people to take out their European style grass lawns and replace them with drought resistant native vegetation, and encourage the replacement of old in-house appliances with more efficient models.
+
+“We have to acknowledge the reality of a shrinking pool of resources and adapt,” said Brobeck, “Whether it’s solving the housing crisis or the water crisis, neither should involve rash and rushed decisions, or we will face more serious future reprecussions.” 
+
+
+
+
 # Groundwaterdata
 ## A step by step of a data project looking at the decrease in groundwater level in Southern California counties
 ## Based on interviews, we already know that we're looking at 10 Southern Counties and their groundwater level, and why that will create constraints for the push to build more housing units in that region as prescribed by the Regional Housing Authority: https://scag.ca.gov/sites/main/files/file-attachments/6th-cycle-rhna-final-allocation-plan.pdf?1616462966
