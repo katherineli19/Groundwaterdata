@@ -75,10 +75,11 @@ write.csv(groundwater2000,"groundwater2000.csv")
 22. Format Column F so that it appears as a percentage with two decimals
 23. Count how many sites in LA decreased and figure out a percentage
 24. For example, among the total of 34 LA well sites that are functional between 2000 and 2021, 26 of them have shown decline in groundwater level, therefore around 76.47% of these wells have shown decline
-25. Use the Sum function to check the total for both Column C and D, to check that the 8 wells that have shown increase did not outweigh the decline
-26. Repeat Steps 4 to 25 for the remaining 9 Southern counties
-27. !['Countyresults'](/Countyresults.png)
-28. !['BARGRAPH'](/BARGRAPH.png)
+!['LAexample'](/LAexample.png)
+26. Use the Sum function to check the total for both Column C and D, to check that the 8 wells that have shown increase did not outweigh the decline
+27. Repeat Steps 4 to 25 for the remaining 9 Southern counties
+28. !['Countyresults'](/Countyresults.png)
+29. !['BARGRAPH'](/BARGRAPH.png)
 
 ## Precipitation 
 1. Go to https://www.ncdc.noaa.gov/cag/county/mapping/4/pcp/202112/12/value
