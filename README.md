@@ -89,3 +89,6 @@ write.csv(groundwater2000,"groundwater2000.csv")
 5. Clean up the County column so only the name remains, for example, "Kern County CA" needs to be rewritten as "Kern" for Datawrapper to recognise it
 6. https://datawrapper.dwcdn.net/yJCag/1/
 7. !['Rainmap'](/Rainmap.png)
+
+## Summary of finding 
+Based on groundwater statistics compiled by the California Natural Resources Agency, there are a total of 766 wells that existed in 2000 which still exist in 2021 across the ten counties of Southern California. Looking at the average groundwater level of each well, 75.85% of those wells have decreased in average water level in 2021 when compared to their average water level in 2000. The ones experiencing the most serious decline being Kern and Ventura. We can also see that precipitation is significantly lower for Southern counties, while most housing developments over the past 20 years have being concentrated in the Central and Southern areas of California. It is therefore meaningful to explore how to build new housing units in better regions or how build them to function more efficiently, because the existing amount of natural resources is shrinking more rapidly in specific regions.
