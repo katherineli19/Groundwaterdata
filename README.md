@@ -76,4 +76,9 @@ write.csv(groundwater2000,"groundwater2000.csv")
 26. Repeat Steps 4 to 25 for the remaining 9 Southern counties
 27. !['Countyresults'](/Countyresults.png)
 
-## Creating info graphics for Groundwater data
+## Precipitation 
+1. Go to https://www.ncdc.noaa.gov/cag/county/mapping/4/pcp/202112/12/value
+2. Find values by county in 2021
+3. Copy the County and Value columns into a spreadsheet
+4. Clean up the County column so only the name remains, for example, "Kern County CA" needs to be rewritten as "Kern" for Datawrapper to recognise it
+5. https://datawrapper.dwcdn.net/yJCag/1/
