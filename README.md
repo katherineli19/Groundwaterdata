@@ -46,6 +46,9 @@ write.csv(groundwater2000,"groundwater2000.csv")
 13. Toggle with the "A to Z" arrange function to rank counties by their percentage of increase
 14. Highlight the ten Southern counties we're looking at in a different colour for clearer visuals
 15. The ten counties are: Imperial, Los Angeles, Kern, Orange, Riverside, San Bernardino, San Diego, San Luis Obispo, Santa Barbara, Ventura
+16. Clean up the County column so that only the County name remains alone
+17. https://datawrapper.dwcdn.net/mSC4M/1/
+18. !['Housingmap'](/Housingmap.png)
 
 ## Comparing groundwater data: 2000 Vs. 2021
 1. Use the Query function to extract the ten counties in question from the "groundwater2000" and "groundwater2021" datasets:
